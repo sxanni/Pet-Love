@@ -2,9 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
   }
 
 body{
+   
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: white;
 }
@@ -28,6 +30,19 @@ body{
 }
 
 .link-schedule{
+    color: #111;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 20px;
+    padding: 16px 32px ;
+    margin-top: 68px;
+    border: none;
+    border-color: white;
+    border-radius: 60px;
+    background-color: white;
+}
+.link-reviews{
     color: #111;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -107,6 +122,8 @@ body{
     
     background-color: #4B504D ;
     padding: 60px 60px 85px 60px;
+    display: flex;
+    justify-content: center;
   }
 .testimonials .title2{
     display: flex;
@@ -114,6 +131,9 @@ body{
     margin: auto;
     color: #fff ;
     padding: 20px;
+    margin-bottom: 70px 0;
+    text-align: center;
+    margin-left: 20%;
   }
 
 .cards{
@@ -122,7 +142,10 @@ body{
     'img title' 
     'img p' 
     ;
+    gap: 0px;
     align-items: center;
+    margin-bottom: 48px;
+    margin-top: 48px;
 }
 .card{
     display: grid;
@@ -130,22 +153,60 @@ body{
     'img title' 
     'img p' 
     ;
+    gap: 0px;
     width:500px;
     border: none;
     border-radius: 10px;
-    margin: 20px;
+    margin: 15px 0;
     padding: 10px;
     background-color: #fff;
 }
 .card img{
     grid-area: img;
-    
+    padding: 9px 20px;
 }
 .card h1{
     grid-area: title;
-    padding: 20px;
+    padding: 18px 20px;
+    
 }
 .card p{
     grid-area: p;
-    padding: 20px;
+    padding: 0 15px;
+}
+
+.testimonial-container .link-reviews{
+
+    background-color:#fce0cf ;
+    margin-top:48px ;
+    margin-left: 40%;
+
+}
+
+
+.footer{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color:#4B504D;
+    text-align: center;
+
+    padding: 5%;
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+
+    background-color:#fce0cf ;
+    
+}
+
+.link-email{
+    color:#4B504D;
+    /* text-decoration: none; */
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* font-size: 20px; */
+    /* padding: 16px 32px ; */
+    /* margin-top: 68px; */
+ 
 }
