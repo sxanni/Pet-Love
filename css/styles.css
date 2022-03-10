@@ -11,6 +11,50 @@ body{
     background-color: white;
 }
 
+.nav-container{
+    position: fixed;
+    width: 100%;
+}
+
+#menu{
+    /* display: block; */
+     display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    /* margin-top: 50px; */
+    background-color: #fce0cf;
+    
+    
+}
+ #menu a:hover{
+    /* display: block; */
+     /* display: flex;
+    flex-direction: row; */
+    /* forced-color-adjust: #fff; */
+    
+    background-color: #fff;
+    padding: 16px 32px ;
+    text-align: center;
+    /* align-items: center; */
+    border: none;
+    border-radius: 45px;
+    text-decoration: line-through;
+}
+
+#menu a{
+    text-decoration: none;
+    color: #111;
+}
+
+#menu h1{
+    margin: 10px 5px;
+   
+}
+.nav-list{
+    width: 100%;
+    padding: 20px;
+}
+
 .header{
     background-image: url("img/img-1.png");
     background-size: cover;
@@ -19,7 +63,7 @@ body{
 }
 
 .header-content{
-    display: flexbox;
+    display: flex;
     align-items: flex-start;
     margin: 100px;
 }
@@ -107,9 +151,9 @@ body{
     padding: 60px 60px 85px 200px;
     margin-left: 10%;
 }
-.content2-text{
+/* .content2-text{ */
    
-}
+/* } */
 
 .content2 img{
     height:100%;
@@ -139,7 +183,7 @@ body{
     margin: auto;
     color: #fff ;
     padding: 20px;
-    margin-bottom: 70px 0;
+    margin-bottom: 70px ;
     text-align: center;
     margin-left: 22%;
   }
@@ -235,7 +279,7 @@ body{
     background-image: url("img/img-1.png");
     background-size: cover;
     /* padding: 60px 60px 70px 60px; */
-    padding: 0 0% 1% 0%;
+    padding: 10px 0 1% 0;
 }
 
 .content1{
